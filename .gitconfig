@@ -4,3 +4,9 @@
 	email = harry@home.home
 [credential]
 	helper = store
+[alias]
+	lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	b = branch
+	r = remote
+	s = status
+	dc = diff --cached
