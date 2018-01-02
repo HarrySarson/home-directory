@@ -2,3 +2,5 @@
 [user]
 	name = Harry Sarson
 	email = harry@home.home
+[credential]
+	helper = store
