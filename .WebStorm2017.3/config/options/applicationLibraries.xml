@@ -1,0 +1,37 @@
+<application>
+  <component name="libraryTable">
+    <library name="chai" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_chai@3.5.0_chai.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_chai@3.5.0_chai.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="chai-iterator" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_chai-iterator@1.1.4_chai-iterator.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_chai-iterator@1.1.4_chai-iterator.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="mocha" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_mocha@4.0.1_mocha.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_mocha@4.0.1_mocha.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="GitCloneDialog.0.0.1920.1080" x="760" y="372" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="224" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="472" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="538" y="207" />
+    <location key="SettingsEditor.0.0.1920.1080" x="435" y="192" />
+    <location key="IdeErrosDialog.0.0.1920.1080" x="464" y="385" />
+    <location key="#ESLint.0.0.1920.1080" x="696" y="339" />
+    <location key="#Web_Browsers.0.0.1920.1080" x="732" y="380" />
+    <location key="#xdebugger.evaluate.0.0.1920.1080" x="812" y="293" />
+    <size key="GitCloneDialog.0.0.1920.1080" width="389" height="207" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="424" height="505" />
+    <size key="#Browse_Repositories.0.0.1920.1080" width="824" height="705" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1040" height="729" />
+    <size key="IdeErrosDialog.0.0.1920.1080" width="982" height="343" />
+    <size key="#ESLint.0.0.1920.1080" width="528" height="441" />
+    <size key="#Web_Browsers.0.0.1920.1080" width="446" height="353" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1896" height="272" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1896" height="272" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1896" height="272" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1896" height="272" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.3.left.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.3.center.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.3.right.0.0.1920.1080" width="1896" height="336" />
+    <size key="GridCell.Tab.3.bottom.0.0.1920.1080" width="1896" height="336" />
+    <size key="#xdebugger.evaluate.0.0.1920.1080" width="420" height="527" />
+  </component>
+</application>

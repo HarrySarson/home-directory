@@ -1,0 +1,19 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="evlsprt3.173" value="18" />
+    <property name="HbAutoCollapseBlocks" value="disabled" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.nvm/versions/node/v9.3.0/bin/node&#10;/home/harry/git/primeimage/node_modules/eslint/bin/eslint.js&#10;/home/harry/git/primeimage" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="ts.lib.d.ts.version" value="2.6.2" />
+    <property name="HbCommenterLanguageId" value="HTML" />
+    <property name="PLUGIN_FILTER" value="eslint" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
+    <property name="file.gist.reindex.count" value="43" />
+    <property name="MochaJavaScriptTestRunnerSupport.hidePassedTests" value="false" />
+    <property name="MochaJavaScriptTestRunnerSupport.hideIgnoredTests" value="true" />
+    <property name="MochaJavaScriptTestRunnerSupport.scrollToSource" value="true" />
+    <property name="MochaJavaScriptTestRunnerSupport.selectFirtsDefect" value="true" />
+    <property name="js.chrome.debugger.port" value="43057" />
+  </component>
+</application>

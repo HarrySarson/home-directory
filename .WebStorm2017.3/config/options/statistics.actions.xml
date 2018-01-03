@@ -1,0 +1,54 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Cut" count="2" />
+      <entry action="$Delete" count="3" />
+      <entry action="$Paste" count="41" />
+      <entry action="$SelectAll" count="3" />
+      <entry action="$Undo" count="17" />
+      <entry action="Add  use strict  statement" count="1" />
+      <entry action="Change JavaScript language version" count="1" />
+      <entry action="CopyElement" count="1" />
+      <entry action="CopyPaths" count="1" />
+      <entry action="Debug" count="4" />
+      <entry action="Download library" count="3" />
+      <entry action="EditorBackSpace" count="510" />
+      <entry action="EditorChooseLookupItem" count="22" />
+      <entry action="EditorCopy" count="22" />
+      <entry action="EditorCut" count="6" />
+      <entry action="EditorDelete" count="45" />
+      <entry action="EditorDeleteToWordEnd" count="1" />
+      <entry action="EditorDown" count="18" />
+      <entry action="EditorDuplicate" count="9" />
+      <entry action="EditorEnter" count="113" />
+      <entry action="EditorIndentSelection" count="3" />
+      <entry action="EditorLeft" count="31" />
+      <entry action="EditorLineStart" count="1" />
+      <entry action="EditorPaste" count="3" />
+      <entry action="EditorRight" count="18" />
+      <entry action="EditorTab" count="14" />
+      <entry action="EditorToggleInsertState" count="8" />
+      <entry action="EditorUnindentSelection" count="2" />
+      <entry action="EditorUp" count="17" />
+      <entry action="EvaluateExpression" count="1" />
+      <entry action="ExpandExpandableComponent" count="1" />
+      <entry action="FindUsages" count="2" />
+      <entry action="Fix ESLint Problems" count="6" />
+      <entry action="Flip Conditional" count="1" />
+      <entry action="Git.Add" count="2" />
+      <entry action="GotoLine" count="1" />
+      <entry action="NewDir" count="1" />
+      <entry action="NewFile" count="3" />
+      <entry action="NewJavaScriptFile" count="3" />
+      <entry action="RenameElement" count="5" />
+      <entry action="Rerun" count="5" />
+      <entry action="Resume" count="1" />
+      <entry action="Run" count="2" />
+      <entry action="RunClass" count="1" />
+      <entry action="SaveAll" count="51" />
+      <entry action="ShowIntentionActions" count="5" />
+      <entry action="ShowSettings" count="4" />
+      <entry action="ToggleLineBreakpoint" count="1" />
+    </counts>
+  </component>
+</application>
