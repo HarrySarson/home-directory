@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Harry Sarson
-	email = harry.sason@hotmail.co.uk
+	email = harry.sarson@hotmail.co.uk
 [credential]
 	helper = store
 [alias]
