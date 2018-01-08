@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Harry Sarson
-	email = harry@home.home
+	email = harry.sason@hotmail.co.uk
 [credential]
 	helper = store
 [alias]
@@ -10,3 +10,5 @@
 	r = remote
 	s = status
 	dc = diff --cached
+[core]
+	exlcudesfile = /home/harry/.gitignore_global
