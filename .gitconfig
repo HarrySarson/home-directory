@@ -2,6 +2,7 @@
 [user]
 	name = Harry Sarson
 	email = harry.sarson@hotmail.co.uk
+	signingkey = 28DF8D7AD1D0E4EF89E198C4E0C19F975E57A6CE
 [credential]
 	helper = store
 [alias]
@@ -12,3 +13,5 @@
 	dc = diff --cached
 [core]
 	exlcudesfile = /home/harry/.gitignore_global
+[commit]
+	gpgsign = true
