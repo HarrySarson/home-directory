@@ -10,4 +10,4 @@ export NVM_DIR="$HOME/.nvm"
 # ctrl G gives quick git status
 bind -x '"\a": git status -bs 2> /dev/null'
 
-+export GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
