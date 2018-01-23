@@ -12,6 +12,6 @@
 	s = status
 	dc = diff --cached
 [core]
-	exlcudesfile = /home/harry/.gitignore_global
+	excludesfile = /home/harry/.gitignore_global
 [commit]
 	gpgsign = true
