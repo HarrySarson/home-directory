@@ -4,7 +4,7 @@
 	email = harry.sarson@hotmail.co.uk
 	signingkey = B7EEBA5DE4B5CB3A
 [credential]
-	helper = store
+	helper = store --file ~/.git-credentials
 [alias]
 	lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 	b = branch
@@ -16,3 +16,5 @@
 	excludesfile = /home/harry/.gitignore_global
 [commit]
 	gpgsign = true
+[push]
+	default = simple
