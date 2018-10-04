@@ -2,7 +2,7 @@
 [user]
 	name = Harry Sarson
 	email = harry.sarson@hotmail.co.uk
-	signingkey = B7EEBA5DE4B5CB3A
+	signingkey = 937B1FBD94B68A63
 [credential]
 	helper = store --file ~/.git-credentials
 [alias]
