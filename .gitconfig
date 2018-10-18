@@ -14,6 +14,7 @@
 	cdgd = !cd `git rev-parse --git-dir`/..
 [core]
 	excludesfile = /home/harry/.gitignore_global
+	fileMode = false
 [commit]
 	gpgsign = true
 [push]
