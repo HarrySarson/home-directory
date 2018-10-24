@@ -2,7 +2,6 @@
 [user]
 	name = Harry Sarson
 	email = harry.sarson@hotmail.co.uk
-	signingkey = B7EEBA5DE4B5CB3A
 [credential]
 	helper = store --file ~/.git-credentials
 [alias]
@@ -17,7 +16,5 @@
 	fileMode = false
 	# Make paging work with two line prompt
 	pager = "(printf '\n'; cat) | less -FRX"
-[commit]
-	gpgsign = true
 [push]
 	default = simple
