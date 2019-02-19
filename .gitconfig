@@ -16,5 +16,9 @@
 	fileMode = false
 	# Make paging work with two line prompt
 	pager = "(printf '\n'; cat) | less -FRX"
+[commit]
+	gpgsign = true
 [push]
 	default = simple
+[include]
+	path = ./.gitgpgkey
