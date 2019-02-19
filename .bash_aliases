@@ -18,6 +18,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+if [ -d "$HOME/.deno/bin" ] ; then
+  PATH="$PATH:$HOME/.deno/bin"
+fi
+
+if [ -d "$HOME/local/texlive/bin/x86_64-linux" ] ; then
+  PATH="$PATH:$HOME/local/texlive/bin/x86_64-linux"
+fi
+
 # ctrl G gives quick git status
 bind -x '"\a": git status -bs 2> /dev/null'
 
