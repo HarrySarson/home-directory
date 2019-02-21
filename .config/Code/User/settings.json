@@ -5,5 +5,14 @@
     "workbench.editor.showTabs": false,
     "cSpell.userWords": [
         "datasheet"
-    ]
+    ],
+    "cSpell.language": "en-GB",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "[makefile]": {
+        "editor.tabSize": 8
+    },
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false
 }
