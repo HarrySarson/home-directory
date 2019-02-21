@@ -12,6 +12,8 @@ fi
 
 if [ -d "/mnt/c/Users/$USER" ] ; then
   W="/mnt/c/Users/$USER"
+elif [ -d "/media/harry/WINDOWS/Users/$USER" ] ; then
+  W="/media/harry/WINDOWS/Users/$USER"
 fi
 
 export NVM_DIR="$HOME/.nvm"
