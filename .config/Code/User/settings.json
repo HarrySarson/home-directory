@@ -13,6 +13,15 @@
     "[makefile]": {
         "editor.tabSize": 8
     },
+    "editor.wordBasedSuggestions": false,
     "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.tabSize": 8,
+    "diffEditor.renderSideBySide": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 0
 }
