@@ -22,3 +22,5 @@
 	default = simple
 [include]
 	path = ./.gitgpgkey
+[credentials]
+	helper = cache

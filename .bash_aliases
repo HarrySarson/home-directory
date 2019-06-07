@@ -26,6 +26,10 @@ if [ -d "$HOME/local/texlive/bin/x86_64-linux" ] ; then
   PATH="$PATH:$HOME/local/texlive/bin/x86_64-linux"
 fi
 
+if [ -d "$HOME/.cargo/bin" ] ; then
+  PATH="$PATH:$HOME/.cargo/bin"
+fi
+
 # ctrl G gives quick git status
 bind -x '"\a": git status -bs 2> /dev/null'
 
@@ -33,3 +37,4 @@ export GPG_TTY=$(tty)
 
 # Two line prompt.
 export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\\n$ "
+
