@@ -8,7 +8,6 @@
     ],
     "cSpell.language": "en-GB",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    "editor.formatOnSave": true,
     "git.confirmSync": false,
     "[makefile]": {
         "editor.tabSize": 8
@@ -21,7 +20,6 @@
     "diffEditor.renderSideBySide": true,
     "cSpell.diagnosticLevel": "Hint",
     "files.insertFinalNewline": true,
-    "editor.formatOnSave": true,
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": 0
 }
