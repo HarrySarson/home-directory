@@ -20,7 +20,7 @@
 	gpgsign = true
 [push]
 	default = simple
-[include]
-	path = ./.gitgpgkey
 [credentials]
 	helper = cache
+[include]
+	path = ~/.gitconfig.local
