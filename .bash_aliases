@@ -35,6 +35,10 @@ fi
 # ctrl G gives quick git status
 bind -x '"\a": git status -bs 2> /dev/null'
 
+# crtl H deletes last bit of path
+bind '"\C-h":unix-filename-rubout'
+
+
 export GPG_TTY=$(tty)
 
 # Two line prompt.
