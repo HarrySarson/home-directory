@@ -7,7 +7,10 @@
         "datasheet"
     ],
     "cSpell.language": "en-GB",
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-9",
+    "[c]": {
+        "editor.formatOnSave": true
+    },
     "git.confirmSync": false,
     "[makefile]": {
         "editor.tabSize": 8
@@ -16,10 +19,11 @@
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
     "editor.mouseWheelScrollSensitivity": 3,
-    "editor.tabSize": 8,
-    "diffEditor.renderSideBySide": true,
+    "diffEditor.renderSideBySide": false,
     "cSpell.diagnosticLevel": "Hint",
     "files.insertFinalNewline": true,
     "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 1,
+    "C_Cpp.clang_format_style": "LLVM",
+    "C_Cpp.default.compilerArgs": ["-Wall", "-Wextra"]
 }
