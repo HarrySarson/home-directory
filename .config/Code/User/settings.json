@@ -9,7 +9,8 @@
     "cSpell.language": "en-GB",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format-9",
     "[c]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-vscode.cpptools",
     },
     "git.confirmSync": false,
     "[makefile]": {
@@ -25,5 +26,9 @@
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": 1,
     "C_Cpp.clang_format_style": "LLVM",
-    "C_Cpp.default.compilerArgs": ["-Wall", "-Wextra"]
+    "C_Cpp.default.compilerArgs": [
+        "-Wall",
+        "-Wextra"
+    ],
+    "C_Cpp.updateChannel": "Insiders"
 }
