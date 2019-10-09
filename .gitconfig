@@ -12,7 +12,7 @@
 	dc = diff --cached
 	cdgd = !cd `git rev-parse --git-dir`/..
 [core]
-	excludesfile = /home/harry/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	fileMode = false
 	# Make paging work with two line prompt
 	pager = "(printf '\n'; cat) | less -FRX"
