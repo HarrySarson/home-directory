@@ -20,15 +20,17 @@
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
     "editor.mouseWheelScrollSensitivity": 3,
-    "diffEditor.renderSideBySide": false,
-    "cSpell.diagnosticLevel": "Hint",
-    "files.insertFinalNewline": true,
-    "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 1,
     "C_Cpp.clang_format_style": "LLVM",
     "C_Cpp.default.compilerArgs": [
         "-Wall",
         "-Wextra"
     ],
     "C_Cpp.updateChannel": "Insiders"
+    "diffEditor.renderSideBySide": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 0,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none"
 }
