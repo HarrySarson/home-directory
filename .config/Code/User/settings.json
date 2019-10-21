@@ -7,9 +7,8 @@
         "datasheet"
     ],
     "cSpell.language": "en-GB",
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format-9",
     "[c]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "ms-vscode.cpptools",
     },
     "git.confirmSync": false,
@@ -20,6 +19,11 @@
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
     "editor.mouseWheelScrollSensitivity": 3,
+    "diffEditor.renderSideBySide": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 1,
     "C_Cpp.clang_format_style": "LLVM",
     "C_Cpp.default.compilerArgs": [
         "-Wall",
