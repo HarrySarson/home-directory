@@ -29,8 +29,8 @@
         "-Wall",
         "-Wextra"
     ],
-    "C_Cpp.updateChannel": "Insiders"
-    "diffEditor.renderSideBySide": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "diffEditor.renderSideBySide": false,
     "cSpell.diagnosticLevel": "Hint",
     "files.insertFinalNewline": true,
     "workbench.editor.enablePreview": false,
