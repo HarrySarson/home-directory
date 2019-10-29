@@ -38,7 +38,6 @@ bind -x '"\a": git status -bs 2> /dev/null'
 # crtl H deletes last bit of path
 bind '"\C-h":unix-filename-rubout'
 
-export LS_COLORS=1
 export CLICOLOR=1
 export GPG_TTY=$(tty)
 
