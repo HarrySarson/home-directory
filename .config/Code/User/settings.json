@@ -36,5 +36,7 @@
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": 0,
     "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "none"
+    "editor.renderWhitespace": "none",
+    "editor.find.addExtraSpaceOnTop": true,
+    "editor.fastScrollSensitivity": 8
 }
