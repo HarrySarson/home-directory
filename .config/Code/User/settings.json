@@ -1,42 +1,65 @@
 {
-    "files.autoSave": "afterDelay",
-    "explorer.confirmDelete": false,
-    "files.trimTrailingWhitespace": true,
-    "workbench.editor.showTabs": false,
-    "cSpell.userWords": [
-        "datasheet"
-    ],
-    "cSpell.language": "en-GB",
-    "[c]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "ms-vscode.cpptools",
-    },
-    "git.confirmSync": false,
-    "[makefile]": {
-        "editor.tabSize": 8
-    },
-    "editor.wordBasedSuggestions": false,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.mouseWheelScrollSensitivity": 3,
-    "diffEditor.renderSideBySide": false,
-    "cSpell.diagnosticLevel": "Hint",
-    "files.insertFinalNewline": true,
-    "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 1,
     "C_Cpp.clang_format_style": "LLVM",
     "C_Cpp.default.compilerArgs": [
         "-Wall",
         "-Wextra"
     ],
     "C_Cpp.updateChannel": "Insiders",
-    "diffEditor.renderSideBySide": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "wordWrapColumn"
+    },
+    "[makefile]": {
+        "editor.tabSize": 8
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.wordWrap": "wordWrapColumn"
+    },
+    "[rust]": {
+        "editor.wordWrapColumn": 99
+    },
     "cSpell.diagnosticLevel": "Hint",
-    "files.insertFinalNewline": true,
-    "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 0,
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+        "datasheet"
+    ],
+    "diffEditor.renderSideBySide": true,
+    "editor.fastScrollSensitivity": 8,
+    "editor.find.addExtraSpaceOnTop": true,
+    "editor.mouseWheelScrollSensitivity": 3,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "none",
-    "editor.find.addExtraSpaceOnTop": true,
-    "editor.fastScrollSensitivity": 8
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.wordBasedSuggestions": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 100,
+    "files.exclude": {
+        "**/.venv": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "javascript.format.semicolons": "insert",
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Enabled": true,
+    "search.location": "sidebar",
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": false,
+    "workbench.sideBar.location": "left"
 }
