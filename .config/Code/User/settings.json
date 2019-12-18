@@ -30,7 +30,10 @@
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
-        "datasheet"
+        "MEMS",
+        "Purves",
+        "datasheet",
+        "harrysarson"
     ],
     "diffEditor.renderSideBySide": true,
     "editor.fastScrollSensitivity": 8,
@@ -58,8 +61,25 @@
     "python.formatting.provider": "yapf",
     "python.linting.flake8Enabled": true,
     "search.location": "sidebar",
-    "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": false,
-    "workbench.sideBar.location": "left"
+    "workbench.sideBar.location": "left",
+    "go.useLanguageServer": true,
+    "rewrap.wrappingColumn": 79,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.fullScreen": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.fontSize": 15,
+    "gitlens.currentLine.scrollable": false,
+    "editor.scrollBeyondLastColumn": 0,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "prettier.bracketSpacing": false,
+    "workbench.colorTheme": "Solarized Dark",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "rust-client.updateOnStartup": true,
+    "rust-client.revealOutputChannelOn": "warn"
 }
