@@ -1,10 +1,4 @@
 {
-    "C_Cpp.clang_format_style": "LLVM",
-    "C_Cpp.default.compilerArgs": [
-        "-Wall",
-        "-Wextra"
-    ],
-    "C_Cpp.updateChannel": "Insiders",
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
         "editor.formatOnSave": false
@@ -17,6 +11,9 @@
         "editor.formatOnSave": true,
         "editor.wordWrap": "wordWrapColumn"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[makefile]": {
         "editor.tabSize": 8
     },
@@ -27,6 +24,12 @@
     "[rust]": {
         "editor.wordWrapColumn": 99
     },
+    "C_Cpp.clang_format_style": "LLVM",
+    "C_Cpp.default.compilerArgs": [
+        "-Wall",
+        "-Wextra"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
@@ -38,6 +41,9 @@
     "diffEditor.renderSideBySide": true,
     "editor.fastScrollSensitivity": 8,
     "editor.find.addExtraSpaceOnTop": true,
+    "editor.fontSize": 15,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": false,
     "editor.mouseWheelScrollSensitivity": 3,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "none",
@@ -45,7 +51,9 @@
         80,
         100
     ],
+    "editor.scrollBeyondLastColumn": 0,
     "editor.wordBasedSuggestions": false,
+    "elmLS.elmAnalyseTrigger": "never",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "onFocusChange",
@@ -57,29 +65,27 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "git.enableCommitSigning": true,
+    "git.openDiffOnClick": false,
+    "git.rebaseWhenSync": true,
+    "gitlens.currentLine.scrollable": false,
+    "gitlens.views.repositories.files.layout": "tree",
+    "go.useLanguageServer": true,
     "javascript.format.semicolons": "insert",
+    "prettier.bracketSpacing": false,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
     "python.formatting.provider": "yapf",
     "python.linting.flake8Enabled": true,
+    "rewrap.wrappingColumn": 79,
+    "rust-client.revealOutputChannelOn": "warn",
+    "rust-client.updateOnStartup": true,
     "search.location": "sidebar",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "left",
-    "go.useLanguageServer": true,
-    "rewrap.wrappingColumn": 79,
-    "zenMode.hideLineNumbers": false,
     "zenMode.fullScreen": false,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 80,
-    "editor.fontSize": 15,
-    "gitlens.currentLine.scrollable": false,
-    "editor.scrollBeyondLastColumn": 0,
-    "prettier.singleQuote": true,
-    "prettier.useTabs": true,
-    "prettier.bracketSpacing": false,
-    "workbench.colorTheme": "Solarized Dark",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "rust-client.updateOnStartup": true,
-    "rust-client.revealOutputChannelOn": "warn"
+    "zenMode.hideLineNumbers": false
 }
