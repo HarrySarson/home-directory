@@ -36,8 +36,10 @@
         "MEMS",
         "Purves",
         "datasheet",
-        "harrysarson"
+        "harrysarson",
+        "kalman"
     ],
+    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": true,
     "editor.fastScrollSensitivity": 8,
     "editor.find.addExtraSpaceOnTop": true,
@@ -52,6 +54,7 @@
         100
     ],
     "editor.scrollBeyondLastColumn": 0,
+    "editor.tabSize": 2,
     "editor.wordBasedSuggestions": false,
     "elmLS.elmAnalyseTrigger": "never",
     "explorer.confirmDelete": false,
