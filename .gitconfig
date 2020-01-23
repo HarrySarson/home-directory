@@ -24,3 +24,7 @@
 	helper = cache
 [include]
 	path = ~/.gitconfig.local
+[difftool "diff-pdf"]
+  cmd = diff-pdf --view \"$LOCAL\" \"$REMOTE\"
+[filter "lhs"]
+	required = true

@@ -8,8 +8,10 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
         "editor.wordWrap": "wordWrapColumn"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -17,12 +19,19 @@
     "[makefile]": {
         "editor.tabSize": 8
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
         "editor.wordWrap": "wordWrapColumn"
     },
     "[rust]": {
+        "editor.formatOnSave": true,
         "editor.wordWrapColumn": 99
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "C_Cpp.clang_format_style": "LLVM",
     "C_Cpp.default.compilerArgs": [
@@ -35,11 +44,11 @@
     "cSpell.userWords": [
         "MEMS",
         "Purves",
+        "Vauxhall",
         "datasheet",
         "harrysarson",
         "kalman"
     ],
-    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": true,
     "editor.fastScrollSensitivity": 8,
     "editor.find.addExtraSpaceOnTop": true,
@@ -56,6 +65,7 @@
     "editor.scrollBeyondLastColumn": 0,
     "editor.tabSize": 2,
     "editor.wordBasedSuggestions": false,
+    "editor.wordWrapColumn": 100,
     "elmLS.elmAnalyseTrigger": "never",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -68,22 +78,24 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
-    "git.enableCommitSigning": true,
     "git.openDiffOnClick": false,
     "git.rebaseWhenSync": true,
     "gitlens.currentLine.scrollable": false,
     "gitlens.views.repositories.files.layout": "tree",
     "go.useLanguageServer": true,
     "javascript.format.semicolons": "insert",
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.bracketSpacing": false,
+    "prettier.printWidth": 100,
     "prettier.singleQuote": true,
     "prettier.useTabs": true,
     "python.formatting.provider": "yapf",
     "python.linting.flake8Enabled": true,
     "rewrap.wrappingColumn": 79,
-    "rust-client.revealOutputChannelOn": "warn",
     "rust-client.updateOnStartup": true,
+    "rust.all_targets": false,
     "search.location": "sidebar",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
