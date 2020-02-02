@@ -1,4 +1,10 @@
 {
+    "C_Cpp.clang_format_style": "LLVM",
+    "C_Cpp.default.compilerArgs": [
+        "-Wall",
+        "-Wextra"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
         "editor.formatOnSave": false
@@ -7,7 +13,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.wordWrap": "wordWrapColumn"
     },
     "[json]": {
@@ -33,12 +39,6 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "C_Cpp.clang_format_style": "LLVM",
-    "C_Cpp.default.compilerArgs": [
-        "-Wall",
-        "-Wextra"
-    ],
-    "C_Cpp.updateChannel": "Insiders",
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
