@@ -45,6 +45,7 @@
         "MEMS",
         "Purves",
         "Vauxhall",
+        "basestation",
         "datasheet",
         "harrysarson",
         "kalman"
@@ -93,8 +94,7 @@
     "python.linting.flake8Enabled": true,
     "rewrap.wrappingColumn": 79,
     "rust-client.updateOnStartup": true,
-    "rust.all_targets": false,
-    "search.location": "sidebar",
+    "rust.clippy_preference": "on",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Solarized Dark",
