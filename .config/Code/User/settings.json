@@ -48,7 +48,8 @@
         "basestation",
         "datasheet",
         "harrysarson",
-        "kalman"
+        "kalman",
+        "tagger"
     ],
     "diffEditor.renderSideBySide": true,
     "editor.fastScrollSensitivity": 8,
@@ -65,7 +66,6 @@
     ],
     "editor.scrollBeyondLastColumn": 0,
     "editor.tabSize": 2,
-    "editor.wordBasedSuggestions": false,
     "editor.wordWrapColumn": 100,
     "elmLS.elmAnalyseTrigger": "never",
     "explorer.confirmDelete": false,
@@ -95,6 +95,9 @@
     "rewrap.wrappingColumn": 79,
     "rust-client.updateOnStartup": true,
     "rust.clippy_preference": "on",
+    "terminal.integrated.shellArgs.linux": [
+        "-i"
+    ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Solarized Dark",
@@ -102,5 +105,11 @@
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "left",
     "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false
+    "zenMode.hideLineNumbers": false,
+    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "elmLS.elmPath": "/usr/local/bin/elm-0.19.1",
+    "elmLS.elmFormatPath": "/usr/local/bin/elm-format-0.8.3",
+    "rust-analyzer.notifications.cargoTomlNotFound": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "rust-analyzer.checkOnSave.command": "clippy"
 }

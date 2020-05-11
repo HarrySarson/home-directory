@@ -14,8 +14,9 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	fileMode = false
-	# Make paging work with two line prompt
-	pager = "(printf '\n'; cat) | less -FRX"
+	# Make paging work with four line prompt
+	pager = "(printf '\n\n\n'; cat) | less -FRX"
+	editor = code --wait
 [commit]
 	gpgsign = true
 [push]
@@ -28,3 +29,5 @@
   cmd = diff-pdf --view \"$LOCAL\" \"$REMOTE\"
 [filter "lhs"]
 	required = true
+[hub]
+	protocol = https
