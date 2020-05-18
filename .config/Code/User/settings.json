@@ -53,11 +53,14 @@
         "tagger"
     ],
     "diffEditor.renderSideBySide": true,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.fastScrollSensitivity": 8,
     "editor.find.addExtraSpaceOnTop": true,
+    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 15,
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": false,
+    "editor.minimap.side": "left",
     "editor.mouseWheelScrollSensitivity": 3,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "none",
@@ -70,6 +73,8 @@
     "editor.wordBasedSuggestions": false,
     "editor.wordWrapColumn": 100,
     "elmLS.elmAnalyseTrigger": "never",
+    "elmLS.elmFormatPath": "/Users/harrysarson/.local/bin/elm-format",
+    "elmLS.elmPath": "/usr/local/bin/elm",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "onFocusChange",
@@ -83,7 +88,9 @@
     "git.confirmSync": false,
     "git.openDiffOnClick": false,
     "git.rebaseWhenSync": true,
+    "gitlens.currentLine.format": "",
     "gitlens.currentLine.scrollable": false,
+    "gitlens.gitCommands.closeOnFocusOut": true,
     "gitlens.views.repositories.files.layout": "tree",
     "go.useLanguageServer": true,
     "javascript.format.semicolons": "insert",
@@ -95,36 +102,28 @@
     "python.formatting.provider": "yapf",
     "python.linting.flake8Enabled": true,
     "rewrap.wrappingColumn": 79,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.displayInlayHints": false,
+    "rust-analyzer.maxInlayHintLength": 5,
+    "rust-analyzer.notifications.cargoTomlNotFound": false,
     "rust-client.updateOnStartup": true,
     "rust.clippy_preference": "on",
+    "search.exclude": {
+        "**/.venv": true
+    },
     "terminal.integrated.shellArgs.linux": [
         "-i"
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Solarized Light",
-    "workbench.colorCustomizations" : {
-        "terminal.background" : "#0D2A35",
-        "terminal.foreground" : "#869396"
+    "workbench.colorCustomizations": {
+        "terminal.background": "#0D2A35",
+        "terminal.foreground": "#869396"
     },
+    "workbench.colorTheme": "Solarized Light",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "right",
     "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false,
-    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "rust-analyzer.notifications.cargoTomlNotFound": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "gitlens.currentLine.format": "",
-    "rust-analyzer.maxInlayHintLength": 5,
-    "editor.minimap.side": "left",
-    "rust-analyzer.displayInlayHints": false,
-    "search.exclude": {
-        "**/.venv": true
-    },
-    "elmLS.elmFormatPath": "/Users/harrysarson/.local/bin/elm-format",
-    "elmLS.elmPath": "/usr/local/bin/elm",
-    "gitlens.gitCommands.closeOnFocusOut": true,
-    "C_Cpp.default.defines": ["STUB"]
+    "zenMode.hideLineNumbers": false
 }
