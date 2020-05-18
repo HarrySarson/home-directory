@@ -13,11 +13,11 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.wordWrap": "wordWrapColumn"
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -46,6 +46,7 @@
         "Purves",
         "Vauxhall",
         "basestation",
+        "basestations",
         "datasheet",
         "harrysarson",
         "kalman",
@@ -66,6 +67,7 @@
     ],
     "editor.scrollBeyondLastColumn": 0,
     "editor.tabSize": 2,
+    "editor.wordBasedSuggestions": false,
     "editor.wordWrapColumn": 100,
     "elmLS.elmAnalyseTrigger": "never",
     "explorer.confirmDelete": false,
@@ -100,16 +102,29 @@
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#0D2A35",
+        "terminal.foreground" : "#869396"
+    },
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": false,
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
     "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "elmLS.elmPath": "/usr/local/bin/elm-0.19.1",
-    "elmLS.elmFormatPath": "/usr/local/bin/elm-format-0.8.3",
     "rust-analyzer.notifications.cargoTomlNotFound": false,
     "editor.acceptSuggestionOnEnter": "off",
-    "rust-analyzer.checkOnSave.command": "clippy"
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "gitlens.currentLine.format": "",
+    "rust-analyzer.maxInlayHintLength": 5,
+    "editor.minimap.side": "left",
+    "rust-analyzer.displayInlayHints": false,
+    "search.exclude": {
+        "**/.venv": true
+    },
+    "elmLS.elmFormatPath": "/Users/harrysarson/.local/bin/elm-format",
+    "elmLS.elmPath": "/usr/local/bin/elm",
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "C_Cpp.default.defines": ["STUB"]
 }

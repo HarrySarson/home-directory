@@ -1,1 +1,2 @@
 * text eol=lf
+*.xlsx diff=excel-diff

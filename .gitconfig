@@ -26,7 +26,10 @@
 [include]
 	path = ~/.gitconfig.local
 [difftool "diff-pdf"]
-  cmd = diff-pdf --view \"$LOCAL\" \"$REMOTE\"
+	cmd = diff-pdf --view \"$LOCAL\" \"$REMOTE\"
+[diff "excel-diff"]
+	command = excel_cmp $2 $5; true
+
 [filter "lhs"]
 	required = true
 [hub]
