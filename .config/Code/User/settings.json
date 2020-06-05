@@ -42,8 +42,19 @@
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
+        "Bevan",
+        "COVID",
+        "Chan",
+        "Gant",
+        "Heba",
+        "Keung",
+        "Kwan",
+        "Leung",
+        "Liam",
+        "Lockdown",
         "MEMS",
         "Purves",
+        "Sarson",
         "Vauxhall",
         "basestation",
         "basestations",
@@ -69,7 +80,6 @@
         100
     ],
     "editor.scrollBeyondLastColumn": 0,
-    "editor.tabSize": 2,
     "editor.wordBasedSuggestions": false,
     "editor.wordWrapColumn": 100,
     "elmLS.elmAnalyseTrigger": "never",
@@ -125,5 +135,9 @@
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "right",
     "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false
+    "zenMode.hideLineNumbers": false,
+    "files.watcherExclude": {
+        "**/.venv/**": true
+    },
+    "python.linting.mypyEnabled": true
 }

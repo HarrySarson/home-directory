@@ -16,7 +16,6 @@
 	fileMode = false
 	# Make paging work with four line prompt
 	pager = "(printf '\n\n\n'; cat) | less -FRX"
-	editor = code --wait
 [commit]
 	gpgsign = true
 [push]
