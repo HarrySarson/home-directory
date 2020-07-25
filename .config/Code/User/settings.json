@@ -56,12 +56,14 @@
         "Purves",
         "Sarson",
         "Vauxhall",
+        "archeticutere",
         "basestation",
         "basestations",
         "datasheet",
         "harrysarson",
         "kalman",
-        "tagger"
+        "tagger",
+        "toolchains"
     ],
     "diffEditor.renderSideBySide": true,
     "editor.acceptSuggestionOnEnter": "off",
