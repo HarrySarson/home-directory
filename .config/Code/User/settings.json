@@ -128,11 +128,6 @@
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "workbench.colorCustomizations": {
-        "terminal.background": "#0D2A35",
-        "terminal.foreground": "#869396"
-    },
-    "workbench.colorTheme": "Solarized Light",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": false,
     "workbench.sideBar.location": "right",
@@ -141,5 +136,6 @@
     "files.watcherExclude": {
         "**/.venv/**": true
     },
-    "python.linting.mypyEnabled": true
+    "python.linting.mypyEnabled": true,
+    "workbench.colorTheme": "Solarized Dark"
 }
